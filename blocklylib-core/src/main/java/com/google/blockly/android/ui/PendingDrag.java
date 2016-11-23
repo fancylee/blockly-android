@@ -21,8 +21,7 @@ import java.lang.ref.WeakReference;
  * {@link BlockView.GestureHandler} which calls {@link #startDrag} to inform the
  * {@link BlockViewDragUtils} how to complete the rest of the drag behavior.
  */
-// TODO(#233): Rename to PendingGesture or similar
-public final class PendingDrag {
+public class PendingDrag {
     /**
      * This threshold is used to detect bad state from invalid MotionEvent streams.  There are cases
      * where an intercepting OnTouchListener never receives an appropriate ACTION_CANCEL or
